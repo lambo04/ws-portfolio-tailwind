@@ -1,0 +1,138 @@
+body {
+    margin: 0 auto;
+    background-color: rgb(220, 220, 220);
+}
+
+.header {
+    height: 420px;
+    margin-bottom: 80px;
+    padding-top: 10px;
+    background: url(../img/fond.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.titre {
+    text-align: center;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.slogan {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.recherche {
+    width: 37%;
+    margin-top: 50px;
+    padding: 5px 0px 15px 0px;
+    color: rgb(240, 240, 240);
+    background-color: orange;
+    font-weight: bold;
+}
+
+label {margin: 0px 5px;}
+
+input {
+    height: 25px;
+    border: none;
+    background-color: rgb(240, 240, 240);
+}
+
+.date{width: 100px;}
+
+button {
+    color: rgb(240, 240, 240);
+    background-color: rgb(30, 30, 30);
+    font-weight: bold;
+    font-size: medium;
+}
+
+.aa {
+    text-align: center;
+    color: gray;
+}
+
+.container {
+    height: 640px;
+}
+
+.bb {
+    width: 65%;
+    display: flex;
+    flex-direction: row;
+}
+
+.bb div {
+    width: 30%;
+    height: 270px;
+    margin: 20px;
+}
+
+.bb div:hover {
+    transform: scale(0.99);
+    box-shadow: 0px 5px 10px gray;
+}
+
+.barcelone {
+    background: url(../img/barcelone.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.dubai {
+    background: url(../img/dubai.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.philippines {
+    background: url(../img/philippines.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.paris {
+    background: url(../img/paris.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.tunis {
+    background: url(../img/tunis.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.londres {
+    background: url(../img/londres.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.ville {
+    margin-top: 20px;
+    padding: 10px 5px;
+    float: right;
+    background-color: rgb(220, 220, 220);
+    font-size: 20px;
+}
+
+.prix {
+    margin-top: 190px;
+    padding: 10px 5px;
+    float: left;
+    color: white;
+    background-color: orange;
+    font-size: 20px;
+}
+
+.footer {text-align: center;}
+.btn{
+    color: rgb(149, 219, 215);
+    background-color: rgb(133, 112, 112);
+    font-weight: bold;
+    font-size: x-large;
+}

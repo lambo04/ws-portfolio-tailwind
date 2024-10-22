@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .bg-hero-image {
+            background-image: url('https://webmastertom.com/wp-content/uploads/2021/06/pexels-pixabay-276452.jpg'); /* Replace with your image URL */
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+
+    <!-- Header Section -->
+    <header class="bg-gray-800 text-white p-4 flex justify-between items-center">
+        <h1 class="text-2xl font-bold">Your Name</h1>
+        <nav>
+            <ul class="flex space-x-4">
+                <li><a href="#home" class="hover:text-gray-300">Home</a></li>
+                <li><a href="#projects" class="hover:text-gray-300">Projects</a></li>
+                <li><a href="#contact" class="hover:text-gray-300">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-hero-image bg-cover bg-center h-screen text-center flex flex-col justify-center text-white">
+        <h2 class="text-4xl font-bold mb-4">Welcome to My Portfolio</h2>
+        <p class="text-xl">I'm a web developer passionate about creating responsive and dynamic websites.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="p-8">
+        <h3 class="text-3xl text-center mb-6">My Skills</h3>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <div class="p-4 bg-gray-200 rounded">HTML</div>
+            <div class="p-4 bg-gray-200 rounded">CSS</div>
+            <div class="p-4 bg-gray-200 rounded">JavaScript</div>
+            <div class="p-4 bg-gray-200 rounded">Tailwind CSS</div>
+            <div class="p-4 bg-gray-200 rounded">BootStrap</div>
+            <div class="p-4 bg-gray-200 rounded">SQL</div>
+            <div class="p-4 bg-gray-200 rounded">PHP</div>
+            <div class="p-4 bg-gray-200 rounded">Python</div>
+
+
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="p-8">
+        <h3 class="text-3xl text-center mb-6">My Projects</h3>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <!-- Project Card -->
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <a href="store.html"><img src="https://cdn.shopify.com/s/files/1/0070/7032/files/kitandace.png?v=1709847060" alt="Project 1" class="w-full h-48 object-cover"></a>
+                <div class="p-4">
+                    <h4 class="text-xl font-bold"><a href="store.html">E-commerce Store</a></h4>
+                    <p class="mt-2"><a href="store.html">An e-commerce store built using React and Tailwind CSS, featuring product listings, a shopping cart, and a checkout process. The site is fully responsive, ensuring a seamless user experience across devices. This project demonstrates my skills in state management, API integration, and responsive design.</a></p>
+                </div>
+            </div>
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <a href="restaurant.html"><img src="https://cdn.dribbble.com/users/2390699/screenshots/14326255/media/79fb1d8a3fac160d2fd311790bf56eb8.png?resize=400x300&vertical=center" alt="Project 2" class="w-full h-48 object-cover"></a>
+                <div class="p-4">
+                    <h4 class="text-xl font-bold"><a href="restaurant.html">Restaurant Website</a></h4>
+                    <p class="mt-2"><a href="restaurant.html">This restaurant website was created using Bootstrap and custom CSS for a modern, visually appealing look. The site includes a menu, gallery, and online reservation system, providing an intuitive user experience for customers. I focused on ensuring responsive design and high-quality visuals</a></p>
+                </div>
+            </div>
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <a href="agence.html"><img src="https://assets.justinmind.com/wp-content/uploads/2020/10/hero-image-example-parallax-tubik.png" alt="Project 3" class="w-full h-48 object-cover"></a>
+                <div class="p-4">
+                    <h4 class="text-xl font-bold"><a href="agence.html">Travel Agency Landing Page</a></h4>
+                    <p class="mt-2"><a href="agence.html">A travel agency landing page developed using Tailwind CSS, featuring beautiful imagery, tour packages, and a contact form. This landing page showcases my ability to create engaging, responsive layouts and optimize user experience with eye-catching design elements</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact" class="p-8">
+        <h3 class="text-3xl text-center mb-6">Contact Me</h3>
+        <form class="bg-gray-100 p-8 rounded-lg shadow-lg w-full md:w-1/2 mx-auto">
+            <input class="w-full p-2 mb-4 border border-gray-300 rounded" type="text" placeholder="Your Name">
+            <input class="w-full p-2 mb-4 border border-gray-300 rounded" type="email" placeholder="Your Email">
+            <textarea class="w-full p-2 mb-4 border border-gray-300 rounded" placeholder="Your Message"></textarea>
+            <button class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-700">Send</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white p-4 text-center">
+        <p>&copy; 2024 omar midouni. All rights reserved.</p>
+        <div class="flex justify-center space-x-4 mt-4">
+            <!-- Social Media Icons -->
+            <a href="#" class="text-white hover:text-gray-300">Facebook</a>
+            <a href="#" class="text-white hover:text-gray-300">Twitter</a>
+            <a href="#" class="text-white hover:text-gray-300">LinkedIn</a>
+        </div>
+    </footer>
+
+</body>
+</html>

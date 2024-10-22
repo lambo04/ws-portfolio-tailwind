@@ -1,0 +1,93 @@
+body {
+    background-color: rgb(173, 137, 96); 
+    font-family: 'Roboto', sans-serif; 
+}
+
+h1, h2, h5 {
+    font-family: 'Poppins', sans-serif; 
+}
+
+.hero {
+    background: url('https://img.freepik.com/photos-premium/pizzas-fraichement-preparees-sont-table-dans-cuisine-du-restaurant-italien-qui-dispose-four-bois-classique-brique-generative-ai_722401-1297.jpg');
+    background-size: cover;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.navbar {
+    background-color: rgb(140, 108, 108); 
+}
+
+.navbar a{
+    color: white !important;
+}
+
+.menu-section {
+    background-color: rgb(149, 126, 126); 
+    padding: 40px 0; 
+    padding: 5%;
+    color:rgb(45, 38, 38);
+}
+
+.menu-item img {
+    height: 200px;
+    object-fit: cover; 
+    width: 100%; 
+    border-radius: 8px; 
+    transition: transform 0.3s; 
+}
+
+.menu-item img:hover {
+    transform: scale(1.05); 
+}
+
+.about-section {
+    background-color: rgb(149, 126, 126); 
+    padding: 40px 0;
+    padding: 5%;
+    color:rgb(45, 38, 38);
+}
+
+.contact-section {
+    background-color:rgb(149, 126, 126); 
+    padding: 40px 0; 
+    padding: 5%;
+    color:rgb(45, 38, 38);
+}
+
+footer {
+    background-color:rgb(140, 108, 108); 
+    color: white; 
+    padding: 20px 0; 
+}
+
+footer a {
+    color: white; 
+    margin: 0 10px;
+}
+
+footer a:hover {
+    color: #f0ad4e; 
+}
+.abimg:hover{
+    border-radius: 8px;
+    transform: scale(1.05); 
+    transition: transform 0.3s;
+
+}
+.btn{
+    color: wheat;
+    background-color: #762b2d;
+    border-color: #f0ad4e;
+}
+.btn:hover{
+    background-color: #762b2d;
+    border-color: #f0ad4e;
+}
+.back{
+    flex-direction: column-reverse;
+}
